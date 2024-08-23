@@ -1,0 +1,121 @@
+1. Check Positive Number:
+ Task: Create a flowchart to check whether a number is positive. 
+ Next Step: Write a Java program that checks if a predefined number is positive using an 
+if-else statement and prints the appropriate message. 
+
+class PosnegCheck {
+    public static void main(String[] args) {
+        
+        int number = 7; 
+
+       
+      if (number > 0) {
+            System.out.println("The number is positive.");
+        } else if (number == 0) {
+            System.out.println("The number is zero.");
+        } else {
+            System.out.println("The number is negative.");
+        }
+    }
+}
+=================================================================================
+=============================================================================
+
+2. Check Negative Number:
+ Task: Create a flowchart to check whether a number is negative. 
+ Next Step: Write a Java program that checks if a predefined number is negative using an 
+if-else statement and displays the result. 
+  if (number < 0) {
+            System.out.println("The number is negative.");
+        } else {
+            System.out.println("The number is not negative.");
+        }
+    }
+}
+==============================================================================
+===============================================================================
+3. Check Odd or Even Number:
+ Task: Create a flowchart to determine whether a number is odd or even. 
+ Next Step: Write a Java program that checks if a predefined number is odd or even. Use 
+an if-else statement and the modulus operator (%) to determine whether the number is 
+divisible by 2 or not. 
+public class EvenOddCheck {
+    public static void main(String[] args) {
+          int number = 7; 
+      if (number % 2 == 0) {
+            System.out.println("The number is even.");
+        } else {
+            System.out.println("The number is odd.");
+        }
+    }
+===============================================================================
+===============================================================================
+
+
+4. Display Good Morning Message Based on Time:
+ Task: Create a flowchart to display a "Good Morning" message based on a given time. 
+ Next Step: Write a Java program that displays a "Good Morning" message if the 
+predefined time is between 5 AM and 12 PM. Use an if statement to implement the logic. 
+public class MornAftCheck {
+    public static void main(String[] args) {
+          int t = 7; // ENTER TIME ONLY IN HOUR DIGIT & IT MUST BE IN 24 HR FORMAT
+      if (t>5 && t<12) {
+            System.out.println("Good morning.");
+        } else {
+            System.out.println("Have a nice day.");
+        }
+    }
+
+===============================================================================
+===============================================================================
+
+
+5. Print Area of a Square:
+ Task: Create a flowchart to calculate and print the area of a square. 
+ Next Step: Write a Java program that calculates the area of a square using the formula 
+area = side * side. Use a predefined side length. 
+public class AreaCheck {
+    public static void main(String[] args) {
+          int a, l = 10 ;
+a=l*l;
+ System.out.println("Area of rectangle is : "+ a ); }
+}
+
+
+===============================================================================
+===============================================================================
+
+
+6. Print Area of a Rectangle:
+ Task: Create a flowchart to calculate and print the area of a rectangle. 
+ Next Step: Write a Java program that calculates the area of a rectangle using the formula 
+area = length * width. Use predefined values for length and width. 
+public class AreaCheck {
+    public static void main(String[] args) {
+          int a, l = 10,b =5 ;
+a=i*b;
+ System.out.println("Area of rectangle is : "+ a ); }
+}
+===============================================================================
+===============================================================================
+
+
+7. Find the Largest of Three Numbers:
+ Task: Create a flowchart to find the largest of three numbers. 
+ Next Step: Write a Java program that finds and prints the largest of three predefined 
+numbers using if-else statements. 
+public class GreatNumCheck {
+    public static void main(String[] args) {
+          int a =2, b =10, c =5 ;
+ if(a>b && a>c) {
+System.out.println("biggest of these no. is : "+ a );}
+else if(b>a && b>c){
+System.out.println("biggest of these no. is : "+ b );}
+else {
+System.out.println("biggest of these no. is: "+ c);}
+}
+}
+===============================================================================
+===============================================================================
+
+
